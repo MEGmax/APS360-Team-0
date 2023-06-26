@@ -210,7 +210,7 @@ By proactively brainstorming and addressing these risks, the model will obtain e
 improved decision-making, and more efficient weather predictions contributing to the overall suc-
 cess of the project.
 
-## 10. Link to Gooogle Colab
+## 10. Link to Google Colab
 
 https://colab.research.google.com/drive/1IQ-zKpyy-Yk1flKSa-byiks4nEUF6r5r?usp=sharing
 
