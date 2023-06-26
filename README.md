@@ -62,14 +62,26 @@ prior time steps, not just consolidating all preceding values, or selectively dr
 pieces of information [5].
 
 
-## 3. Illustration
+## 3. Project Illustrations
 
-```
-Figure 1: High Level Project Illustration
-```
-```
-Figure 2: Recurrent Neural Network Illustration
-```
+
+
+<div>
+
+[![High Level Project Illustration](https://drive.google.com/uc?export=view&id=1XQ1VhwHU56X6fMi-EYm8ZKSQY8yYAnjB)](https://drive.google.com/uc?export=view&id=1XQ1VhwHU56X6fMi-EYm8ZKSQY8yYAnjB)
+<div align="center"> <strong> Figure 1: High Level Project Illustration</strong> </div>
+
+</div>
+
+
+<div>
+  
+[![Recurrent Neural Network Illustration](https://drive.google.com/uc?export=view&id=1J69MN5JGuIstvZqxiqSiHXYq-Te3dSV3)](https://drive.google.com/uc?export=view&id=1J69MN5JGuIstvZqxiqSiHXYq-Te3dSV3)
+<div align="center"> <strong>Figure 2: Recurrent Neural Network Illustration </strong></div>
+</div>
+
+
+
 ## 4. Data Processing
 
 The Government of Canada has amassed hourly weather data [6] for many specific regions in Canada
