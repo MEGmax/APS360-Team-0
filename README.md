@@ -1,4 +1,15 @@
-# APS360 Team 0: WEATHER FORECASTING
+# Weather Forecasting with RNN 
+
+## Project Description
+
+```
+This project aims to develop a model to accurately predict weather patterns based
+on historical weather and climate data. A recurrent neural network (RNN) will
+be leveraged to analyse the sequential and pattern based nature of the weather to
+forecast real time weather
+```
+
+## Team 0 Members
 
 ```
 Andrew Radke
@@ -16,15 +27,7 @@ mitchell.palermo@mail.utoronto.ca
 Liza Abraham
 l.abraham@mail.utoronto.ca
 ```
-## ABSTRACT
-
-```
-This project aims to develop a model to accurately predict weather patterns based
-on historical weather and climate data. A recurrent neural network (RNN) will
-be leveraged to analyse the sequential and pattern based nature of the weather to
-forecast real time weather —-Total Pages: 5
-```
-## 1. INTRODUCTION
+## 1. Introduction
 
 Weather forecasting is an essential aspect of our daily lives, not only impacting our personal conve-
 nience, but affecting entire industries such as agriculture, transportation, and energy systems. The
@@ -40,7 +43,7 @@ does not follow a rigid structure, making it difficult to compute with tradition
 Networks excel at learning patterns and are able to learn from the historical weather events of an
 area and apply that information to make an accurate prediction given real-time data.
 
-## 2. BACKGROUND
+## 2. Background
 
 Since the advent of computer modelling weather forecasting systems have been in use to provide
 weather event predictions. Historically, forecasting approaches may be broken into two groups, tra-
@@ -59,7 +62,7 @@ prior time steps, not just consolidating all preceding values, or selectively dr
 pieces of information [5].
 
 
-## 3. ILLUSTRATION
+## 3. Illustration
 
 ```
 Figure 1: High Level Project Illustration
@@ -67,15 +70,13 @@ Figure 1: High Level Project Illustration
 ```
 Figure 2: Recurrent Neural Network Illustration
 ```
-## 4. DATA PROCESSING
+## 4. Data Processing
 
 The Government of Canada has amassed hourly weather data [6] for many specific regions in Canada
 over the course of years. The team will collect the hourly weather data for Toronto over several years,
 directly from their historical data portal, in a .CSV file format. When data is stored and the directory
 is mounted to the Google Colabratory the team will clean and filter data for relevant metric and
-non-null fields. To format the data into a usable state, the team will use the PySpark Library (Python
-
-
+non-null fields. To format the data into a usable state, the team will use the PySpark Library (Python 
 API for Apache Spark) to query the data and generate a complete dataset that can be used to train
 and validate our model. Formatting would not only include only pulling relevant fields, but it would
 also require ensuring the fields are cast to the correct datatype (i.e. datetime, int, string) and any
@@ -83,7 +84,7 @@ spacing issues and special characters are dealt with. Developing a query/script 
 allow us to easily scale our dataset. We will be able to source more data from these sources, in their
 standard template, and clean/format the data quickly and efficiently.
 
-## 5. ARCHITECTURE
+## 5. Architecture
 
 The chosen model for this project is an RNN. An RNN will be used because it excels in areas such
 as processing sequential data. Weather is inherently sequentially natured and thus the RNN will be
@@ -92,7 +93,7 @@ handling sequential data because it contains memory, time dependency and back pr
 will all be used to improve the prediction. In contrast, a CNN will not be used as they are best suited
 for image interpretation and images will not be used for weather prediction.
 
-## 6. BASELINE MODEL
+## 6. Basline Model
 
 The baseline model that will be used is a persistence model. The persistence model is a simple
 model where you take the current state of the weather and predict the future state to be the exact
@@ -102,7 +103,7 @@ model performs better than this baseline then it can be determined that relevant
 learned by the neural network, whereas if the model performs worse, then it can be determined that
 the model did not learn any relevant information.
 
-## 7. ETHICAL CONSIDERATION
+## 7. Ethical Consieration  
 
 The four key ethical issues posed by the proposed forecasting model include biases, data handling,
 model application, and overall transparency in the creation and operation of the model [7]. Biased
@@ -121,7 +122,7 @@ construction make for a minimal impact on technological resources that could imp
 This is in addition to the existing efforts done to reduce the ecological footprint of AI and technology,
 the details of which extend beyond the scope of this paper.
 
-## 8. PROJECT PLAN
+## 8. Project Plan 
 
 The team has developed a high-level Gantt chart tracking start and completion dates for all course
 deliverables and for the project progression itself.
@@ -150,7 +151,7 @@ Drive.
 5. All members must provide replies within 24 hours.
 6. The team is to use GitHub to prevent overwriting each other’s code and for version control.
 
-## 9. RISK REGISTER
+## 9. Risk Register
 
 In this section, we will identify and analyse the major risks associated with the project. It is important
 to consider any risks and assess the likelihood of each risk so that outlined actions are in place if
@@ -197,14 +198,11 @@ By proactively brainstorming and addressing these risks, the model will obtain e
 improved decision-making, and more efficient weather predictions contributing to the overall suc-
 cess of the project.
 
-## 10. LINK TO GOOGLECOLAB AND GITHUB
+## 10. Link to Gooogle Colab
 
-https://colab.research.google.com/drive/1IQ-zKpyy-Yk1flKSa-byiks4nEUF6r5r?
-usp=sharing
+https://colab.research.google.com/drive/1IQ-zKpyy-Yk1flKSa-byiks4nEUF6r5r?usp=sharing
 
-https://github.com/MEGmax/APS360-Team-
-
-## REFERENCES
+## References
 
 [1] T. Shenwai, “A study on various deep learning-based weather forecasting models,” MarkTech-
 Post, https://www.marktechpost.com/2023/03/01/a-study-on-various-deep-learning-based-weather-
